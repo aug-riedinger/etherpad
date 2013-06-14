@@ -35,12 +35,12 @@ exports.root = path.normalize(path.join(npm.dir, ".."));
 /**
  * The app title, visible e.g. in the browser window
  */
-exports.title = "Etherpad Lite";
+exports.title = "Etherpad Lite - by Jerry";
 
 /**
  * The app favicon fully specified url, visible e.g. in the browser window
  */
-exports.favicon = "favicon.ico";
+exports.favicon = "favicon.png";
 exports.faviconPad = "../" + exports.favicon;
 exports.faviconTimeslider = "../../" + exports.favicon;
 
