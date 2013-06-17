@@ -1,0 +1,28 @@
+/*
+  custom css files are loaded after core css files. Simply use the same selector to override a style.
+  Example:
+      #editbar LI {border:1px solid #000;}
+    overrides
+      #editbar LI {border:1px solid #d5d5d5;}
+    from pad.css
+*/
+
+body {
+  background: #E2001A;
+  border-top: 8px solid #930011;
+  background-image: url('mlove.png');
+  background-position: center 40px;
+  background-repeat: no-repeat;
+}
+
+#wrapper {
+  background: white;
+}
+
+#button {
+  background: #930011;
+}
+
+#button:hover {
+  background: #E2001A;
+}
